@@ -1,7 +1,7 @@
 <!--Contact Us Tab-->
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   <head>
     <meta charset="utf-8">
@@ -17,29 +17,65 @@
 
   <body>
       
-      <!--Nav Bar-->
-        <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="index2.html">About Us</a></li>
-        <li class="active"><a href="index3.html">Contact Us <span class="sr-only">(current)</span></a></li>
-        <li><a href="index4.html">Drinks</a></li>
-        <li><a href="index5.html">Desserts</a></li>
-        <li><a href="index6.html">Food</a></li>
-        <li><a href="index7.html">Comments</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+     <div class="navbar navbar-default" >
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+               
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav pull-left " data-toggle="collapse" data-target=".navbar-collapse">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index2.html">About Us</a></li>
+                        <li class="active"><a href="index3.html">Contact Us <span class="sr-only">(current)</span></a></li>
+                        <li><a href="index4.html">Drinks</a></li>
+                        <li><a href="index5.html">Desserts</a></li>
+                        <li><a href="index62.html">Food</a></li>
+                        <li><a href="index7.html">Comments</a></li>
+                        <li><a href="https://cse104dro.wufoo.com/forms/z1kem7fh1oyvvzy/" target="_blank">Reservations</a><li>
+                        <li><a href="https://cse104dro.wufoo.com/forms/m1ymexw07k7zc0/" target="_blank">Pick-up/Delivery Order</a></li>
+                   </ul>
+                </div> <!--nav collapse -->
+            </div> <!--container -->
+        </div> <!--Navbar Inner -->
+
+
        <div class="container">
         
         <div class="row">
             <div class="jumbotron col-md-12">
            <h1>Contact</h1>
+         
+           <!--Jumbotron Modal-->
+           <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Learn about our quality promise</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Coffee Cartel means Quality</h4>
+      </div>
+      <div class="modal-body">
+        When you order anything off of our menu, we promise:
+      <ul>
+        <li>Fair trade coffee beans which supports growers in developing countries live better and supports sustainability in those regions</li>
+        <li>All our natural ingredients that go into our delicious food is sourced locally from Missouri and Illinois farms</li>
+        <li>Our drinks, desserts, and foods are all just as delicious at 4am as they are at 2pm. We aim to please always, so if you're every unsatisfied with your order, please let us know so we can help</li>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
           </div>
         </div>
 
@@ -50,12 +86,12 @@
     <p> (314) 454 0000 </p>
   <h1> Address </h1>
     <p> 2 Maryland Plaza, St. Louis, MO 63108 </p>
-    <a href="https://www.google.com/maps/place/The+Coffee+Cartel/@38.644616,-90.261752,17z/data=!3m1!4b1!4m2!3m1!1s0x87d8b4d7d3a32c5f:0xc41351999fa04eed"> Find us on Google Maps! </a>
 </div>
 
-
-
-
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 
 
   </body>
