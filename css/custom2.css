@@ -1,20 +1,15 @@
 /*custom css*/
 
+
 body {
 	background-color: #AD8D2B;
 }
 
-.DrinkMenu li{
-	color:white;
-}
-
-.DessertMenu li{
-	color:white;
-}
 
 .navbar{
 	background-color: black;
-	border: solid;
+	border:solid;
+
 }
 
 .jumbotron{
@@ -47,14 +42,14 @@ body {
 	color:#067A06;
 }
 
+.AboutInfo p{
+	color:white;
+}
+
 .Events {
 	color: white;
 }
 
-.row h1, p{
-	color:white;
-	text-align: center;
-}
 
 
 .caption h1{
@@ -62,38 +57,9 @@ body {
 	text-align:center;
 
 }
-.caption p{
-	color:black;
-}
 
 
-.DrinkMenu h1{
-	color:#067A06;
-}
-
-.DessertMenu h1{
-	color:#067A06;
-}
-
-.DessertQ h2{
-	color:#067A06;
-}
-
-.DessertQ .btn {
-
-}
-
-.nav a{
-	color:white;
-}
 
 
-.review {
-	color:green;
-}
 
-
-.menu-header h1{
-	color:#067A06;
-}
 

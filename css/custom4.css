@@ -4,17 +4,11 @@ body {
 	background-color: #AD8D2B;
 }
 
-.DrinkMenu li{
-	color:white;
-}
-
-.DessertMenu li{
-	color:white;
-}
 
 .navbar{
 	background-color: black;
-	border: solid;
+	border:solid;
+
 }
 
 .jumbotron{
@@ -24,32 +18,6 @@ body {
 	border-color:black;
 }
 
-
-
-.thumbnails p{
-	color:black;
-	text-align: left;
-}
-
-.modalbutton {
-	text-align: center;
-}
-
-.modal-body {
-	text-align: left;
-}
-
-.AboutInfo {
-	text-align: left;
-}
-
-.AboutInfo h1{
-	color:#067A06;
-}
-
-.Events {
-	color: white;
-}
 
 .row h1, p{
 	color:white;
@@ -63,37 +31,27 @@ body {
 
 }
 .caption p{
-	color:black;
+	color:white;
 }
 
 
-.DrinkMenu h1{
-	color:#067A06;
-}
-
-.DessertMenu h1{
-	color:#067A06;
-}
-
-.DessertQ h2{
-	color:#067A06;
-}
-
-.DessertQ .btn {
-
-}
 
 .nav a{
 	color:white;
 }
 
-
-.review {
-	color:green;
+.clasicos p{
+	text-align: left;
 }
 
+.sandwiches p{
+	text-align: left;
+}
 
+.other_stuff p{
+	text-align: left;
+
+}
 .menu-header h1{
 	color:#067A06;
 }
-
